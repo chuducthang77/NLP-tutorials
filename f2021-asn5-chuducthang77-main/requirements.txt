@@ -1,0 +1,4 @@
+numpy
+pandas
+nltk
+scikit-learn  # only used for k-fold cross validation. Not used for the model itself.

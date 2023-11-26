@@ -1,0 +1,10 @@
+.DS_Store
+/.github/
+/venv/
+/test.py
+/test1.py
+/test2.py
+/test3.py
+/data/train-test/
+/data/dev-test/
+

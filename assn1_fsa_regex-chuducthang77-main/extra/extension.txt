@@ -1,0 +1,23 @@
+Graduate Student Extension - Bias & Ethics
+
+Our approach has a bias when since we extract both simple date expression and deictic date expressions in simple manner.
+Specifically, the longest regular expression we have contains three terms (date-month-year) and the smallest regular
+expression we have contains only one term. However, our regular expression will fail to generalize in the case of more
+than four terms, for example relative date-month-year (before 01/01/2000). Also, we assume that the number in front of
+month will be date. However, that number can be a random number, but not date. Therefore, it will affect the generalization
+in other context. However, we still choose this approach since it prevents different regular expressions to share the
+same result. Our work still generalizes in other domains. However, we still face some collisions since two regular
+expressions can share the same component (for example, date-month-year versus year, or date-month-year year month).
+The fact that we knew the input consisted of news articles also introduced a bias in what kind of expressions we focused on.
+We focused more on 'formal' date formats because they would typically be more present in news articles, unlike less formal formats,
+for example, "the day after tomorrow".
+
+Ethics Paper Summary
+
+The paper proposes a tutorial to raise the awareness of ethics in the NLP among practitioners. The goal of this tutorial
+is to provide different tools and resources for participants to apply ethically NLP techniques. The tutor introduces
+three ethical issues, including dual use, bias, and privacy. This tutorial is based on the participation of the attendee such that
+the more engaging of the participants, the better the instruction. Since the tutorial is pedagogy, it uses equitable pedagogical
+classroom techniques. Finally, the paper introduces a detailed procedure of how to organize the tutorial from introducing
+background and core concepts to discussing big class exercise and then concluding.
+
